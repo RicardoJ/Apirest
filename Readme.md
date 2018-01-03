@@ -1,7 +1,9 @@
-#start app
+# start app
 --------------
--Do npm installation for dependencies
-#Install dependencies:
+Do npm installation for dependencies
+
+# Install dependencies
+
 -express,
 -ejs,
 -body-parser,
@@ -10,10 +12,10 @@
 -mongodb,
 -nodemon
 ------------------
-#In console to start with nodemon
+# In console to start with nodemon
 npm run dev
-
 or npm start
+
 -------------------------
 
 receives a json that has the following structure
@@ -46,22 +48,22 @@ the collections are in models
 -model_provider
 -model_specialities
 
-#GET/providersCL
+# GET/providersCL
 get all the providers
 
-#GET/providersCL/id
+# GET/providersCL/id
 get the provider by id
 
-#Delete/providersCL
+# Delete/providersCL
 delete all the providers
 
-#Delete/providersCL/id
+# Delete/providersCL/id
 dele the provider by id
 
-#POST 
+# POST 
 insert o create provider 
 
-#PUT 
+# PUT 
 Update provider by id
 -----------------------------------
 listen for the port(3000)
